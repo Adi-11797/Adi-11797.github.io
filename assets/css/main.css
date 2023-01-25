@@ -7,7 +7,7 @@
 */
 
 html, body, body2, div, span, applet, object,
-iframe, h1, h2, h2b, h3, h3b, h4, h5, h6, p, p2, blockquote,
+iframe, h1, h1w, h2, h2b, h3, h3b, h4, h5, h6, p, p2, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -205,7 +205,7 @@ input, select, textarea {
 		margin: 0 0 0.5em 0;
 	}
 
-	h2, h3, h4, h5, h6 {
+	h1w, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
@@ -218,6 +218,10 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-size: 2.75em;
+	}
+
+	h1w {
 		font-size: 2.75em;
 	}
 
@@ -276,6 +280,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
+			font-size: 2em;
+		}
+
+		h1w {
 			font-size: 2em;
 		}
 
@@ -2604,7 +2612,7 @@ input, select, textarea {
 				.wrapper.style3-alt .icon.major:before {
 					color: #2ee4bb;
 				}
-
+/* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image *//* Image */
 /* Image */
 
 	.image {
@@ -3164,8 +3172,24 @@ input, select, textarea {
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.15);
 		}
+
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
 
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
@@ -3332,15 +3356,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #000000;
+			background-color: #0f4949;  /*Research page's Bottom*/
 		}
 
 		.wrapper.style1 {
-			background-color: #4f9398;  /*Title 1  ccffee/81ffd5/*/
+			background-color: #4f9398;  /*Title 1*/
 		}
 
 		.wrapper.style1-alt {
-			background-color: #356266;  /*bottom*/
+			background-color: #356266;  /*Bottom 4*/
 		}
 
 		.wrapper.style2 {
@@ -3466,7 +3490,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2ee4bb;
+		background-color: #0f4949;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
